@@ -6,15 +6,15 @@
 </head>
 <body>
 <form>
-	<table>
+	<table border="1">
 		<tr>
 			<td>Fahrenheit</td>
-			<td><input type="text" id="farenheit" name="farenheit"></td>
+			<td><input type="number" id="farenheit" name="farenheit" step="0.01" required=""></td>
 			<td><button type="button" onclick="convertirCelsius(); return false">Convert to Celsius</button></td>
 		</tr>
 		<tr>
 			<td>Celsius</td>
-			<td><input type="text" id="celsius" name="celsius"></td>
+			<td><input type="number" id="celsius" name="celsius" step="0.01" required=""></td>
 			<td><button type="button" onclick="convertirFarenheit(); return false">Convert to Farenheit</button></td>
 		</tr>
 	</table>
